@@ -1,6 +1,10 @@
 {
   "name": "cra-template-youtube",
-  "version": "1.1.3",
+  "version": "1.0.1",
+  "scripts": {
+    "prepublish": "npm-auto-version",
+    "postpublish": "git push origin --tags"
+  },
   "keywords": [
     "react",
     "create-react-app",
@@ -8,12 +12,10 @@
     "barebones react template"
   ],
   "description": "This is the template most youtube tutorials start with.",
-  
   "license": "MIT",
   "engines": {
     "node": ">=14"
   },
-
   "files": [
     "template",
     "template.json"
