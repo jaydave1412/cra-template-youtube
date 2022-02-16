@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-youtube",
+  "name": "cra-template-yt",
   "version": "1.0.1",
   "scripts": {
     "prepublish": "npm-auto-version",
@@ -12,6 +12,10 @@
     "barebones react template"
   ],
   "description": "This is the template most youtube tutorials start with.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydave1412/cra-template-youtube"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=14"
